@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import FeedbackCard from "./components/FeedbackCard";
 import ThankYouMessage from "./components/ThankYouMessage";
-import "./app.css";
+import "./App.css";
 
 function App() {
   const [selectedRating, setSelectedRating] = useState(null);
